@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">D3 Times: Health & Demographics Data</a>
+        </div>
+    </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>Health Factors & Demographic Data</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <div id="scatter">
+          <!-- Append Chart Here -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <div class="article">
+          <h3>Correlations Discovered Between Health Risks and Income</h3>
+          <p>As we can see above there is a correlation as household income decreases, the percentages increase for those who are obese and smoke. States that show higher household 
+              income also showed lower clusters of the pecentage of citizens lacking heathcare. While more indepth analysis is needed, the visuals provide good insight of trending that
+              is showing the less wealthy citizens are incurring more health risks with less healthcare coverage.</p>
+          <br>
+          <h3>Correlations Discovered Between Health Risks and Age</h3>
+          <p>When we look at the same health data against median age by state, there is nothing that stands out in incredibly when trying to uncover large trends. Since the median age by 
+              state is going to be close across the US, we can expect to see a cluster of data which is shown. There is a heavy cluster of obese % around 27-30 with the median ages around 36-40.
+              We do see a slight cluster increase in % of Smokers as median age increases but it is very slight. Of all the reporting views, possibly the most idenfiable trned is that as median 
+              age increases, the % of those who lack healthcare does decrease.  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <p>John Goodale &copy;2019 </p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
